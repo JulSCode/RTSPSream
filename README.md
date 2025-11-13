@@ -29,7 +29,7 @@ The project requires specific libVLC components that must be placed in the corre
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/JulSCode/RTSPSream.git
+git clone https://github.com/JulSCode/RTSPStream.git
 cd RTSPSream
 ```
 
