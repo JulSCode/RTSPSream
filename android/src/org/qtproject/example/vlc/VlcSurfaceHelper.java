@@ -59,7 +59,6 @@ public class VlcSurfaceHelper {
 
                 mediaPlayer.getVLCVout().setVideoView(textureView);
                 
-                // КЛЮЧЕВОЙ МОМЕНТ: Установите размер окна ПЕРЕД attachViews()
                 mediaPlayer.getVLCVout().setWindowSize((int) width, (int) height);
                 
                 mediaPlayer.getVLCVout().attachViews();
@@ -87,7 +86,6 @@ public class VlcSurfaceHelper {
                 params.topMargin = (int) y;
                 textureView.setLayoutParams(params);
                 
-                // Обновите размер окна при изменении позиции
                 if (mediaPlayer != null) {
                     mediaPlayer.getVLCVout().setWindowSize((int) width, (int) height);
                 }

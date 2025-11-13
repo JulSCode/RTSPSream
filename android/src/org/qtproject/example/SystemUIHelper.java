@@ -1,4 +1,3 @@
-// D:\QtProgects\RTSPStream\android\src\org\qtproject\example\SystemUIHelper.java
 package org.qtproject.example;
 
 import android.app.Activity;
