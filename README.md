@@ -40,7 +40,7 @@ Download the required libVLC files from [Maven Repository](https://mvnrepository
 #### Project File Structure
 
 ```
-RTSPSream/
+RTSPStream/
 ├── android/
 │   ├── libs/
 │   │   └── libvlc-all-4.0.0-eap23.aar          ← Download from Maven
